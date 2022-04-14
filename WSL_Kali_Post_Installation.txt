@@ -1,0 +1,13 @@
+WSL Kali Linux (Post Installation)
+----------------------------------
+
+sudo apt update && sudo apt upgrade
+
+sudo apt-get update && apt-cache search kali-linux-top10
+
+sudo apt -y install kali-linux-top10
+
+or
+
+sudo apt -y install kali-linux-default
+
