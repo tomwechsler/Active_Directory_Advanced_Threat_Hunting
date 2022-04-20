@@ -1,0 +1,23 @@
+#In a Windows Terminal
+
+wsl --update
+
+#For Example to work with wireshark
+
+kali
+
+sudo usermod -aG wireshark tom
+
+exit
+
+wslg wireshark
+
+#Install a GUI on Kali
+#https://www.kali.org/docs/wsl/win-kex/
+
+sudo apt update && sudo apt upgrade
+
+sudo apt install kali-win-kex -y
+
+kex
+
