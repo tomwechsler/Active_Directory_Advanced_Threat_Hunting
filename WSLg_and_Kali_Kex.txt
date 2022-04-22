@@ -6,7 +6,9 @@ wsl --update
 
 kali
 
+sudo groupadd wireshark
 sudo usermod -aG wireshark tom
+sudo dpkg-reconfigure wireshark-common
 
 exit
 
