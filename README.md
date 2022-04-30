@@ -1,2 +1,2 @@
-# Active Directory Advanced Threat Hunting
+# Active Directory Advanced Threat Hunting - Identify vulnerabilities before others do!
 This repo is about Active Directory Advanced Threat Hunting!
