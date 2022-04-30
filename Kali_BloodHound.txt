@@ -15,5 +15,8 @@ bloodhound
 
 #The browser starts, enter the username (neo4j) and the new password
 
-#To work with Bloodhound you need data in your database, for this you can use Sharpehound
+#To work with Bloodhound you need data in your database, for this you can use SharpHound
 https://github.com/BloodHoundAD/BloodHound/tree/master/Collectors
+
+#On a System (in the context of a domain user) in your domain run:
+SharpHound --CollectionMethods All
