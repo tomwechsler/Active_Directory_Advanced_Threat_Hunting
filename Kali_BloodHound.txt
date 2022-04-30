@@ -1,1 +1,19 @@
+#On Kali Linux
 
+sudo apt update && sudo apt upgrade -y
+
+sudo apt install bloodhound
+
+#This will start the DB
+sudo neo4j console
+
+#Copy the link an open in a browser
+#Enter username (neo4j) and password (neo4j) and then change the password
+
+#Back in the terminal
+bloodhound
+
+#The browser starts, enter the username (neo4j) and the new password
+
+#To work with Bloodhound you need data in your database, for this you can use Sharpehound
+https://github.com/BloodHoundAD/BloodHound/tree/master/Collectors
