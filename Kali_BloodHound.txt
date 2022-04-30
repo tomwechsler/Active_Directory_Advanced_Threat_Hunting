@@ -10,7 +10,7 @@ sudo neo4j console
 #Copy the link an open in a browser
 #Enter username (neo4j) and password (neo4j) and then change the password
 
-#Back in the terminal
+#Back in the terminal start Bloodhound
 bloodhound
 
 #The browser starts, enter the username (neo4j) and the new password
