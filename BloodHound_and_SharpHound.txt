@@ -24,3 +24,6 @@ https://github.com/BloodHoundAD/BloodHound/tree/master/Collectors
 
 #Be careful SharpHound triggers the anti-malware protection
 SharpHound --CollectionMethods All
+
+#Or
+SharpHound --CollectionMethods Group,LocalAdmin,GPOLocalGroup,Session,LoggedOn,Trusts,ACL,Container,RDP,ObjectProps,DCOM,SPNTargets,PSRemote,LocalGroup
