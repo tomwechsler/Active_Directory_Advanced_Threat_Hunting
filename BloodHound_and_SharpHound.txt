@@ -1,7 +1,9 @@
-#On Kali Linux
+##On Kali Linux
 
+#Update the repo metadata
 sudo apt update && sudo apt upgrade -y
 
+#Install BloodHound
 sudo apt install bloodhound
 
 #This will start the DB
@@ -15,8 +17,10 @@ bloodhound
 
 #The browser starts, enter the username (neo4j) and the new password
 
+##On a Windows system that has joined the Active Directory
+
 #To work with Bloodhound you need data in your database, for this you can use SharpHound
 https://github.com/BloodHoundAD/BloodHound/tree/master/Collectors
 
-#On a System (in the context of a domain user) in your domain run:
+#Be careful SharpHound triggers the anti-malware protection
 SharpHound --CollectionMethods All
