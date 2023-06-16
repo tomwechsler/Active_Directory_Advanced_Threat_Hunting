@@ -25,6 +25,8 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/ev
 ## OS Credential Dumping: DCSync 
 https://attack.mitre.org/techniques/T1003/006/ 
 
+**4932(S): Synchronization of a replica of an Active Directory naming context has begun**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4932
  
 
 ## Access Token Manipulation: SID-History Injection 
