@@ -10,7 +10,17 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/ev
 ## Access Token Manipulation 
 https://attack.mitre.org/techniques/T1134/ 
 
- 
+**5136(S): A directory service object was modified**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5136
+
+**4661(S, F): A handle to an object was requested**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4661
+
+**5137(S): A directory service object was created**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5137
+
+**5141(S): A directory service object was deleted**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5141
 
 ## OS Credential Dumping: DCSync 
 https://attack.mitre.org/techniques/T1003/006/ 
