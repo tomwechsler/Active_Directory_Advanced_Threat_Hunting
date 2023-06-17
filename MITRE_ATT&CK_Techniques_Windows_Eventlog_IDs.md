@@ -32,7 +32,11 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/ev
 ## Access Token Manipulation: SID-History Injection 
 https://attack.mitre.org/techniques/T1134/005/ 
 
- 
+**Security assessment: Unsecure SID History attributes**  
+https://learn.microsoft.com/en-us/defender-for-identity/security-assessment-unsecure-sid-history-attribute
+
+**4765(S): SID History was added to an account**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4765 
 
 ## Indicator Removal: Clear Windows Event Logs 
 https://attack.mitre.org/techniques/T1070/001/
