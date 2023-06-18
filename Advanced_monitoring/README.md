@@ -16,7 +16,15 @@ After the installation, it is now time to set up the agent (Winlogbeat) on all s
 
 When you have downloaded the agent and the installation has been completed, you will be asked at the end if you want to open the directory to the configuration files. Confirm this so that the directory is opened. This directory contains sample configuration files for the agent. I have provided you with an example here. These file are written in YAML format.
 
-[Winlogbeat config file](/Advanced_monitoring/winlogbeat.yml "Example configuration")
+[Winlogbeat Configuration File](/Advanced_monitoring/winlogbeat.yml)
+
+If you have copied this file into the directory, you can now run a check and see if everything is ok. YAML is very space sensitive, a check is worthwhile in any case.
+
+<img src="/Advanced_monitoring/SO-Winlogbeat_Config_Check.JPG" alt="Check the Configuration File">
+
+An "OK" confirmation must be issued otherwise the service will not start.
+
+<img src="/Advanced_monitoring/SO-Winlogbeat_Config_OK.JPG" alt="Config OK">
 
 
 ---
