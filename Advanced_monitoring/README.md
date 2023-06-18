@@ -39,8 +39,8 @@ I have downloaded the file Sysmon64.exe. Sysmon is very detailed in its default 
 
 [Sysmon Configuration File](/Advanced_monitoring/sysmon-config.xml)
 
-Afterwards the installation is done as follows:
-sysmon64.exe -i sysmon-config.xml
+Afterwards the installation is done as follows:  
+- sysmon64.exe -i sysmon-config.xml
 
 When you access the file for the first time, you still have to accept the license terms.
 
