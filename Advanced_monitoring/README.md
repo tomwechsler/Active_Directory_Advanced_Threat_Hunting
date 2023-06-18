@@ -12,7 +12,7 @@ Now it's time to install and configure Security Onion. On the website of Securit
 
 After the installation, it is now time to set up the agent (Winlogbeat) on all systems (that are to be monitored).
 
-[[https://github.com/tomwechsler/Active_Directory_Advanced_Threat_Hunting/blob/main/Advanced_monitoring/SO-Winlogbeat.JPG]]
+<img src="/Active_Directory_Advanced_Threat_Hunting/blob/main/Advanced_monitoring/SO-Winlogbeat.JPG" alt="Download Winlogbeat Agent">
 
 
 If you get stuck, look in the Solution directory.
