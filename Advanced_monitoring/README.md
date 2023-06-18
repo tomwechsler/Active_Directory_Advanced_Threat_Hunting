@@ -26,7 +26,32 @@ An "OK" confirmation must be issued otherwise the service will not start.
 
 <img src="/Advanced_monitoring/SO-Winlogbeat_Config_OK.JPG" alt="Config OK">
 
+If everything is in order, the service must now be started.
+
+<img src="/Advanced_monitoring/SO-Winlogbeat_Service.JPG" alt="Start the service">
+
+Now it's time to install Sysmon. You can get the tool directly from the Sysinternals website:
+
+**Live Sysinternals**  
+https://live.sysinternals.com/
+
+I have downloaded the file Sysmon64.exe. Sysmon is very detailed in its default configuration. But you can define which information is important for you. I will gladly provide you with an example configuration file. 
+
+[Sysmon Configuration File](/Advanced_monitoring/sysmon-config.xml)
+
+Afterwards the installation is done as follows:
+sysmon64.exe -i sysmon-config.xml
+
+When you access the file for the first time, you still have to accept the license terms.
+
+> Note: You can automate the installation of the Winlogbeat agent and Sysmon very well with a group policy object.
+
+If you have made all preparations you can now call the URL to your Security Onion (as defined by you during the installation) and check if the information has arrived.
+
+<img src="/Advanced_monitoring/SO-Dashboard.JPG" alt="Dashobard">
+
+<img src="/Advanced_monitoring/SO-Dashboard-Elastic.JPG" alt="Elastic Dashobard">
 
 ---
-## *GREAT WORK!*
+## *HAPPY HUNTING!*
 ---
