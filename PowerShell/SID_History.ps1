@@ -7,3 +7,6 @@ https://learn.microsoft.com/en-us/defender-for-identity/security-assessment-unse
 Get-ADUser -Filter * -Properties cn,memberof,sidhistory
 
 Get-ADUser -Properties sidhistory,memberof -Filter {sidhistory -like '*'}
+
+#Remove the SIDHistory attribute using the SID identified earlier
+Set-ADUser -Identity Anna.Sibu -Remove @{SIDHistory='S-1-5-21-...'}
