@@ -39,6 +39,8 @@ I have downloaded the file Sysmon64.exe. Sysmon is very detailed in its default 
 
 [Sysmon Configuration File](/Advanced_monitoring/sysmon-config.xml)
 
+> Note: This configuration file is from @SwiftOnSecurity (many thanks here!) https://github.com/SwiftOnSecurity
+
 Afterwards the installation is done as follows:  
 - sysmon64.exe -i sysmon-config.xml
 
