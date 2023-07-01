@@ -40,3 +40,9 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/ev
 
 ## Indicator Removal: Clear Windows Event Logs 
 https://attack.mitre.org/techniques/T1070/001/
+
+## Brute Force  
+https://attack.mitre.org/techniques/T1110/
+
+**4740(S): A user account was locked out**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4740
