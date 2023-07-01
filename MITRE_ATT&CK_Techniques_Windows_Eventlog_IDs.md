@@ -5,7 +5,18 @@ https://attack.mitre.org/techniques/T1558/003/
 
 **4769(S, F): A Kerberos service ticket was requested**  
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4769
- 
+
+## Credential Access  
+https://attack.mitre.org/tactics/TA0006/  
+
+**4611(S): A trusted logon process has been registered with the Local Security Authority**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4611
+
+**4673(S, F): A privileged service was called**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4673
+
+**4662(S, F): An operation was performed on an object**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4662#security-monitoring-recommendations
 
 ## Access Token Manipulation 
 https://attack.mitre.org/techniques/T1134/ 
