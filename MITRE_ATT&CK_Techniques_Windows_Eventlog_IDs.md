@@ -41,6 +41,12 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/ev
 ## Indicator Removal: Clear Windows Event Logs 
 https://attack.mitre.org/techniques/T1070/001/
 
+**1102(S): The audit log was cleared**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1102  
+
+**Security monitoring recommendations for many audit events**  
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/appendix-a-security-monitoring-recommendations-for-many-audit-events
+
 ## Brute Force  
 https://attack.mitre.org/techniques/T1110/
 
