@@ -145,6 +145,8 @@ https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/eve
 
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4690
 
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4699
+
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5038
 
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5140
