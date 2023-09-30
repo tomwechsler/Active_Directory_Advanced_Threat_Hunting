@@ -1,6 +1,6 @@
 # Local host infection and malicious behavior!
 
-## Lets have a look at the corresponding MITRE techniques:
+## We start with a list of MITRE techniques:
 
 **Indicator Removal: File Deletion**  
 https://attack.mitre.org/techniques/T1070/004/
@@ -131,6 +131,10 @@ This technique involves storing collected data in a temporary or hidden location
 
 https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4660
 
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4663
+
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688
+
 https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-592
 
 https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4103
@@ -139,7 +143,19 @@ https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/eve
 
 https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4656
 
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4690
+
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5038
+
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5140
+
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5145
+
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5156
+
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6281
+
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_logging_windows
 
 ## If you have included your client systems in Microsoft Defender for Endpoint, you can research threats with advanced hunting.
 
