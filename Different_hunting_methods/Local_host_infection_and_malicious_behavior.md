@@ -65,7 +65,7 @@ https://attack.mitre.org/techniques/T1546/003/
 **Data Staged**  
 https://attack.mitre.org/techniques/T1074/
 
-# The Windows Event ID's for the MITRE techniques!
+## The Windows Event ID's for the MITRE techniques!
 
 **Indicator Removal: File Deletion (T1070/004):**  
  This technique involves deleting files that could provide indicators of an attacker's presence or activity. Possible Windows Event IDs associated with this technique are **4660** (An object was deleted), **4663** (An attempt was made to access an object), **5140** (A network share object was accessed), **5145** (A network share object was checked to see whether client can be granted desired access), and **5156** (The Windows Filtering Platform has permitted a connection).
