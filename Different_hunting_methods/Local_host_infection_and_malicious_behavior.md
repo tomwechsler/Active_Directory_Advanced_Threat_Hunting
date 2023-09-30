@@ -69,21 +69,27 @@ https://attack.mitre.org/techniques/T1074/
 
 **Example queries 1:**  
 Hunt for schedule task creation:  
+```
 DeviceProcessEvents  
 | where FileName == "schtasks.exe"  
 | where ActionType == "ProcessCreated"  
 | where ProcessCommandLine contains "create"  
 | project DeviceName, AccountName, InitiatingProcessParentFileName, InitiatingProcessFileName, InitiatingProcessCommandLine, FileName, ProcessCommandLine
+```
 
 <img src="/Different_hunting_methods/Images/Hunt_Query_1.png" alt="Hunting Query">
 
 **Example queries 2:**  
 Hunt for network configuration discovery:  
+```
 DeviceProcessEvents  
 | where InitiatingProcessCommandLine contains "Get-WmiObject Win32_NetworkAdapterConfiguration"
+```
 
 **Example queries 3:**  
 Hunt for execution of a DLL with rundll32.exe using CMD:  
+```
 DeviceProcessEvents  
 | where FileName == "cmd.exe"  
 | where ProcessCommandLine contains "rundll32"
+```
