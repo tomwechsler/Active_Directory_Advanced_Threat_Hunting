@@ -147,6 +147,8 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/ev
 
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4699
 
+https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4702
+
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5038
 
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5140
@@ -158,6 +160,8 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/ev
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6281
 
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_logging_windows
+
+https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
 
 ## If you have included your client systems in Microsoft Defender for Endpoint, you can research threats with advanced hunting.
 
