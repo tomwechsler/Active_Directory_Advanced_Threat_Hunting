@@ -150,3 +150,9 @@ DeviceProcessEvents
 ```
 
 <img src="/Different_hunting_methods/Images/Hunt_Query_4.png" alt="Hunting Query">
+
+## Azure Arc: Monitor file and registry integrity!
+
+**You can integrate your on-premises server systems with Azure Arc to monitor the systems specifically.**  
+
+<img src="/Different_hunting_methods/Images/Azure_Arc.png.png" alt="Azure Arc">
