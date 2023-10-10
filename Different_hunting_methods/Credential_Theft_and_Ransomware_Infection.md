@@ -1,4 +1,4 @@
-# Local host infection and malicious behavior!
+# Credential Theft and Ransomware Infection!
 
 ## We start with a list of MITRE techniques (Credential Theft):
 
