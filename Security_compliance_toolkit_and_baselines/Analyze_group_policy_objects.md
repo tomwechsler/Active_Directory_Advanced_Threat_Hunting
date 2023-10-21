@@ -67,7 +67,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=55319
 
 **Now we have to add the default domain controller policy**  
 
-<img src="/Security_compliance_toolkit_and_baselines/Images/pol_6.png alt="Add the default domain controller policy">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_6.png" alt="Add the default domain controller policy">
 
 **Click on the import button**  
 
