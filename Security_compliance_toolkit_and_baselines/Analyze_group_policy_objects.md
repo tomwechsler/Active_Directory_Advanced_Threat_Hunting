@@ -41,39 +41,39 @@ https://www.microsoft.com/en-us/download/details.aspx?id=55319
 
 **So that we can compare the Default Domain Controllers Policy, we create a backup**  
 
-<img src="/Security_compliance_toolkit_and_baselines/pol_0" alt="Create a backup">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_0" alt="Create a backup">
 
 **We need the necessary tools and baselines**  
 
-<img src="/Security_compliance_toolkit_and_baselines/pol_1" alt="Choose the dowmload">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_1" alt="Choose the dowmload">
 
 **Extract the files**  
 
-<img src="/Security_compliance_toolkit_and_baselines/pol_2" alt="Extract the files">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_2" alt="Extract the files">
 
 **From the Windows-Server-2022-Security-Baseline-FINAL folder, copy the following file**  
 
-<img src="/Security_compliance_toolkit_and_baselines/pol_3" alt="Copy the file">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_3" alt="Copy the file">
 
 **Paste the file in the Policy Analyzer folder**  
 
-<img src="/Security_compliance_toolkit_and_baselines/pol_4" alt="Paste the file">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_4" alt="Paste the file">
 
 **Open the Policy Analyzer**
 
-<img src="/Security_compliance_toolkit_and_baselines/pol_5" alt="Open the Policy Analyzer">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_5" alt="Open the Policy Analyzer">
 
 > Note: If you have a low screen resolution you may not be able to see the bottom part of the application. It is important that you see the bottom part so that you can adjust the path to the policy rule sets (see red marker).
 
 **Now we have to add the default domain controller policy**  
 
-<img src="/Security_compliance_toolkit_and_baselines/pol_6" alt="Add the default domain controller policy">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_6" alt="Add the default domain controller policy">
 
 **Click on the import button**  
 
-<img src="/Security_compliance_toolkit_and_baselines/pol_7" alt="Import the policy">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_7" alt="Import the policy">
 
 **Give it a name and then click on safe**  
 
-<img src="/Security_compliance_toolkit_and_baselines/pol_8" alt="Give it a name">
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_8" alt="Give it a name">
 
