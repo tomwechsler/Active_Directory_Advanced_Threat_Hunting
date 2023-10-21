@@ -77,3 +77,10 @@ https://www.microsoft.com/en-us/download/details.aspx?id=55319
 
 <img src="/Security_compliance_toolkit_and_baselines/Images/pol_8.png" alt="Give it a name">
 
+**Now you can compare the polivy with the security baseline**
+
+<img src="/Security_compliance_toolkit_and_baselines/Images/pol_9.png" alt="Compare the policy">
+
+---
+## *HAPPY COMPARING!*
+---
