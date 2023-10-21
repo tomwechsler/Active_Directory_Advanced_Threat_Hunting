@@ -36,12 +36,12 @@ https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/ev
 
 ## Compare the Default Domain Controllers Policy with the security baselines using the Policy Analyzer!
 
-**Security Compliance Toolkit and Baselines**  
-https://www.microsoft.com/en-us/download/details.aspx?id=55319  
-
 **So that we can compare the Default Domain Controllers Policy, we create a backup**  
 
 <img src="/Security_compliance_toolkit_and_baselines/Images/pol_0.png" alt="Create a backup">
+
+**Security Compliance Toolkit and Baselines**  
+https://www.microsoft.com/en-us/download/details.aspx?id=55319  
 
 **We need the necessary tools and baselines**  
 
