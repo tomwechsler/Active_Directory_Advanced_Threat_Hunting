@@ -64,7 +64,7 @@ net user /domain svc2
 
 ## ADRecon
 
-> **Note:The ADRecon tool is provided by Prashant Mahajan (@prashant3535), thanks for that!**  
+> **Note: The ADRecon tool is provided by Prashant Mahajan (@prashant3535), thanks for that!**  
 https://github.com/adrecon/ADRecon
 
 Download the tool, the easiest way is to save the .zip file right away. Attention: The download may cause the anti-malware to react.  
@@ -79,7 +79,7 @@ Download the tool, the easiest way is to save the .zip file right away. Attentio
 
 <img src="/Different_hunting_methods/Images/adrecon_7.png" alt="Execution Policy">
 
-**Run ADRecon**  
+**Run ADRecon (We do not need elevated rights for the examination)**  
 
 <img src="/Different_hunting_methods/Images/adrecon_8.png" alt="Run ADRecon">
 
@@ -88,3 +88,19 @@ Download the tool, the easiest way is to save the .zip file right away. Attentio
 **The report is created in the same folder**  
 
 <img src="/Different_hunting_methods/Images/adrecon_9.png" alt="Report">
+
+**Now open the report and start the investigation and analysis**  
+
+<img src="/Different_hunting_methods/Images/adrecon_10.png" alt="Open the report">
+
+**User Stats**
+
+<img src="/Different_hunting_methods/Images/adrecon_11.png" alt="A lot of information">
+
+**Users**  
+
+<img src="/Different_hunting_methods/Images/adrecon_12.png" alt="A lot of information">
+
+**User SPNs**  
+
+<img src="/Different_hunting_methods/Images/adrecon_13.png" alt="A lot of information">
