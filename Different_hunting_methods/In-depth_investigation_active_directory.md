@@ -62,12 +62,29 @@ net user /domain svc2
 
 <img src="/Different_hunting_methods/Images/adrecon_4.png" alt="Specific Account Information">
 
-
-
-
-
-
 ## ADRecon
 
 > **Note:The ADRecon tool is provided by Prashant Mahajan (@prashant3535), thanks for that!**  
 https://github.com/adrecon/ADRecon
+
+Download the tool, the easiest way is to save the .zip file right away. Attention: The download may cause the anti-malware to react.  
+
+<img src="/Different_hunting_methods/Images/adrecon_5.png" alt="Download">
+
+**Unzip the file, open PowerShell and move into the extracted folder**  
+
+<img src="/Different_hunting_methods/Images/adrecon_6.png" alt="Unzip">
+
+**Set the execution policy to unrestricted**  
+
+<img src="/Different_hunting_methods/Images/adrecon_7.png" alt="Execution Policy">
+
+**Run ADRecon**  
+
+<img src="/Different_hunting_methods/Images/adrecon_8.png" alt="Run ADRecon">
+
+> **Note: To get the report as a spreadsheet, Excel must be installed on the system.**  
+
+**The report is created in the same folder**  
+
+<img src="/Different_hunting_methods/Images/adrecon_9.png" alt="Report">
