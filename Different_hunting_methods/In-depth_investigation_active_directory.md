@@ -95,12 +95,20 @@ Download the tool, the easiest way is to save the .zip file right away. Attentio
 
 **User Stats**
 
-<img src="/Different_hunting_methods/Images/adrecon_11.png" alt="A lot of information">
+<img src="/Different_hunting_methods/Images/adrecon_11.png" alt="User Stats">
 
 **Users**  
 
-<img src="/Different_hunting_methods/Images/adrecon_12.png" alt="A lot of information">
+<img src="/Different_hunting_methods/Images/adrecon_12.png" alt="Users">
 
 **User SPNs**  
 
-<img src="/Different_hunting_methods/Images/adrecon_13.png" alt="A lot of information">
+<img src="/Different_hunting_methods/Images/adrecon_13.png" alt="User SPNs">
+
+**Lets hunt for a kerberoastable information**  
+
+<img src="/Different_hunting_methods/Images/adrecon_14.png" alt="Hunt for User SPNs">
+
+**Now we can use the hashes and hunt for the password**  
+
+<img src="/Different_hunting_methods/Images/adrecon_15.png" alt="Hunt for the password">
