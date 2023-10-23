@@ -67,7 +67,9 @@ net user /domain svc2
 > **Note: The ADRecon tool is provided by Prashant Mahajan (@prashant3535), thanks for that!**  
 https://github.com/adrecon/ADRecon
 
-Download the tool, the easiest way is to save the .zip file right away. Attention: The download may cause the anti-malware to react.  
+Download the tool, the easiest way is to save the .zip file right away. 
+
+> Note: **Attention: It is possible that the antimalware program reacts during the download**    
 
 <img src="/Different_hunting_methods/Images/adrecon_5.png" alt="Download">
 
