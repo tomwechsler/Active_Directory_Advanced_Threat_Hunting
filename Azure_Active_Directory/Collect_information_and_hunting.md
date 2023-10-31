@@ -132,3 +132,24 @@ PS C:\AzureADRecon-master> .\AzureADRecon.ps1 -Credential $creds
 
 ## Hunting with Microsoft Sentinel
 
+Now we have detailed information from the Microsoft client. The information was not collected just like that, but because there was a suspicion. Now we continue with advanced hunting in Microsoft Sentinel.
+
+In Microsoft Sentinel, we can directly access the incidents from the overview.
+
+<img src="/Azure_Active_Directory/Images/sen_1.png" alt="Sentinel Incidents">
+
+**List of incidents**
+
+<img src="/Azure_Active_Directory/Images/sen_2.png" alt="List of incidents">
+
+**View full incident details**
+
+<img src="/Azure_Active_Directory/Images/sen_3.png" alt="View full incident details">
+
+**Now the deep dive into the incident**
+
+<img src="/Azure_Active_Directory/Images/sen_4.png" alt="Deep dive">
+
+**Investigate each incident**
+
+<img src="/Azure_Active_Directory/Images/sen_5.png" alt="Investigate">
