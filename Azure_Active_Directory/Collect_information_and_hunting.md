@@ -156,3 +156,7 @@ In Microsoft Sentinel, we can directly access the incidents from the overview.
 **Investigate each incident**
 
 <img src="/Azure_Active_Directory/Images/sen_5.png" alt="Investigate">
+
+---
+## *HAPPY INVESTIGATING!*
+---
