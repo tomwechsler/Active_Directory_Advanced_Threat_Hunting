@@ -18,7 +18,7 @@ Now it's time to install and configure Security Onion. On the website of Securit
 
 <img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_2.png" alt="Uninstall old agents">
 
-**Check the service**  
+**Check the service - should be removed after uninstall**  
 
 <img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_3.png" alt="Check the service">
 
@@ -71,7 +71,7 @@ https://live.sysinternals.com/
 
 I have downloaded the file Sysmon64.exe. Sysmon is very detailed in its default configuration. But you can define which information is important for you. I will gladly provide you with an example configuration file. 
 
-[Sysmon Configuration File](/Advanced_monitoring/sysmon-config.xml)
+[Sysmon Configuration File](/Advanced_monitoring/Security_Onion_2.3/sysmon-config.xml)
 
 > Note: This configuration file is from @SwiftOnSecurity (many thanks here!) https://github.com/SwiftOnSecurity
 
