@@ -12,7 +12,7 @@ Now it's time to install and configure Security Onion. On the website of Securit
 
 After the installation, it is now time to set up the agent (Winlogbeat) on all systems (that are to be monitored).
 
-<img src="/Advanced_monitoring/SO-Winlogbeat.JPG" alt="Download Winlogbeat Agent">
+<img src="/Advanced_monitoring/Security_Onion_2.3/SO-Winlogbeat.JPG" alt="Download Winlogbeat Agent">
 
 When you have downloaded the agent and the installation has been completed, you will be asked at the end if you want to open the directory to the configuration files. Confirm this so that the directory is opened. This directory contains sample configuration files for the agent. I have provided you with an example here. These file are written in YAML format.
 
@@ -20,15 +20,15 @@ When you have downloaded the agent and the installation has been completed, you 
 
 If you have copied this file into the directory, you can now run a check and see if everything is ok. YAML is very space sensitive, a check is worthwhile in any case.
 
-<img src="/Advanced_monitoring/SO-Winlogbeat_Config_Check.JPG" alt="Check the Configuration File">
+<img src="/Advanced_monitoring/Security_Onion_2.3/SO-Winlogbeat_Config_Check.JPG" alt="Check the Configuration File">
 
 An "OK" confirmation must be issued otherwise the service will not start.
 
-<img src="/Advanced_monitoring/SO-Winlogbeat_Config_OK.JPG" alt="Config OK">
+<img src="/Advanced_monitoring/Security_Onion_2.3/SO-Winlogbeat_Config_OK.JPG" alt="Config OK">
 
 If everything is in order, the service must now be started.
 
-<img src="/Advanced_monitoring/SO-Winlogbeat_Service.JPG" alt="Start the service">
+<img src="/Advanced_monitoring/Security_Onion_2.3/SO-Winlogbeat_Service.JPG" alt="Start the service">
 
 Now it's time to install Sysmon. You can get the tool directly from the Sysinternals website:
 
@@ -50,9 +50,9 @@ When you access the file for the first time, you still have to accept the licens
 
 If you have made all preparations you can now call the URL to your Security Onion (as defined by you during the installation) and check if the information has arrived.
 
-<img src="/Advanced_monitoring/SO-Dashboard.JPG" alt="Dashobard">
+<img src="/Advanced_monitoring/Security_Onion_2.3/SO-Dashboard.JPG" alt="Dashobard">
 
-<img src="/Advanced_monitoring/SO-Dashboard-Elastic.JPG" alt="Elastic Dashobard">
+<img src="/Advanced_monitoring/Security_Onion_2.3/SO-Dashboard-Elastic.JPG" alt="Elastic Dashobard">
 
 ---
 ## *HAPPY HUNTING!*
