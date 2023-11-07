@@ -76,11 +76,16 @@ I have downloaded the file Sysmon64.exe. Sysmon is very detailed in its default 
 > Note: This configuration file is from @SwiftOnSecurity (many thanks here!) https://github.com/SwiftOnSecurity
 
 Afterwards the installation is done as follows:  
-- sysmon64.exe -i sysmon-config.xml
+
+```
+sysmon64.exe -i sysmon-config.xml
+```
 
 When you access the file for the first time, you still have to accept the license terms.
 
-> Note: You can automate the installation of the Winlogbeat agent and Sysmon very well with a group policy object.
+<img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_14.png" alt="Accept the license terms">
+
+> Note: You can automate the installation of the Elastic Agent and Sysmon very well with a group policy object.
 
 If you have made all preparations you can now call the URL to your Security Onion (as defined by you during the installation) and check if the information has arrived.
 
