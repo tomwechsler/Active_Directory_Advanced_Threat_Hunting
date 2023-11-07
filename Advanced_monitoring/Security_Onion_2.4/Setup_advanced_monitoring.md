@@ -93,6 +93,10 @@ If you have made all preparations you can now call the URL to your Security Onio
 
 <img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_13.png" alt="Fleet Agents">
 
+**This is an example of the information that is collected**  
+
+<img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_15.png" alt="Information">
+
 ---
 ## *HAPPY MONITORING!*
 ---
