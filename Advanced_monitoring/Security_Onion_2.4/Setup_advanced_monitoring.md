@@ -14,19 +14,24 @@ Now it's time to install and configure Security Onion. On the website of Securit
 
 <img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_4.png" alt="Use the new Security Onion 2.4">
 
+**Stop the service - should be removed after uninstall**  
+
+<img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_3.png" alt="Check the service">
+
 **Uninstall old agents if necessary**  
 
 <img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_2.png" alt="Uninstall old agents">
-
-**Check the service - should be removed after uninstall**  
-
-<img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_3.png" alt="Check the service">
 
 **The status of the Security Onion**  
 
 After the installation of the Security Onion, it is now time to set up the agent (Elastic Agent) on all systems (that are to be monitored). First, check the status of the Security Onion.
 
 **At the console**  
+
+```
+sudo so-status
+
+```
 
 <img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_1.png" alt="Check the status">
 
