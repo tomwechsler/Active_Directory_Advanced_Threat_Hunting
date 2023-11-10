@@ -14,6 +14,8 @@ Now it's time to install and configure Security Onion. On the website of Securit
 
 <img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_4.png" alt="Use the new Security Onion 2.4">
 
+> Note: If you are still using the Winlogbeat agent, you should first uninstall it before installing the new agent.
+
 **Stop the service - should be removed after uninstall**  
 
 <img src="/Advanced_monitoring/Security_Onion_2.4/Images/so_3.png" alt="Check the service">
