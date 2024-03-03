@@ -20,8 +20,7 @@ https://attack.mitre.org/techniques/T1552/006/
 ## The Windows Event ID's for the MITRE techniques!
 
 **Domain Policy Modification**  
-
-4739(S): Domain Policy was changed  
+4739(S): Domain Policy was changed
 https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4739
 
 **Group Policy Discovery**  
