@@ -8,7 +8,7 @@
 Get-ADOrganizationalUnit -Filter {LinkedGroupPolicyObjects -like "*"} | Format-Table Name
 
 #For each OU, we need to:
-$OU = 'OU=Sales,OU=People,DC=techsnipsdemo,DC=org'
+$OU = 'OU=Desktops,OU=Luzern,DC=prime,DC=pri'
 Get-ADObject -Filter {ObjectClass -ne 'OrganizationalUnit'} -SearchBase $OU
 
 #Loop through them all
