@@ -2,7 +2,7 @@
 #A GPO that is either not linked or linked to empty OUs!
 ###
 
-#region Sort OUs with GPO links by whether or not they have non-OU children
+#Sort OUs with GPO links by whether or not they have non-OU children
 
 #Get all OUs with GPO links:
 Get-ADOrganizationalUnit -Filter {LinkedGroupPolicyObjects -like "*"} | Format-Table Name
@@ -28,9 +28,7 @@ ForEach($OU in Get-ADOrganizationalUnit -Filter {LinkedGroupPolicyObjects -like 
     }
 }
 
-#endregion
-
-#region Yes, functionize that please
+#Yes, functionize that please
 Function Get-ADOUStatus {
     param (
         [string]$Filter = '*'
@@ -57,9 +55,7 @@ Function Get-ADOUStatus {
 #Usage
 Get-ADOUStatus
 
-#endregion
-
-#region Find GPOs linked to those empty OUs
+#Find GPOs linked to those empty OUs
 
 #Store the OU status in a variable
 $emptyOUs = Get-ADOUStatus | Where-Object {$_.Empty -and $_.LinkedGPOs}
@@ -100,9 +96,7 @@ ForEach($OU in $emptyOUs.OU){
 #result
 $GPOsLinkedToEmptyOUs | Format-List
 
-#endregion
-
-#region Check if those GPOs are linked to any OUs with children
+#Check if those GPOs are linked to any OUs with children
 $nonEmptyOUs = Get-ADOUStatus | Where-Object {-not $_.Empty}
 ForEach($OU in $nonEmptyOUs.OU){
     ForEach($GPO in $GPOsLinkedToEmptyOUs){
@@ -122,10 +116,7 @@ ForEach($OU in $nonEmptyOUs.OU){
 #Now
 $GPOsLinkedToEmptyOUs | Format-List
 
-#endregion
-
-#region Bring it all together into a function with useful output
-
+#Bring it all together into a function with useful output
 Function Get-GPOStatus {
     [cmdletbinding()]
     Param()
@@ -193,5 +184,3 @@ Get-GPOStatus -Verbose | Format-List
 
 #Finding unused GPOs
 Get-GPOStatus | Where-Object {$_.EmptyOU -and -not $_.NonEmptyOU}
-
-#endregion
