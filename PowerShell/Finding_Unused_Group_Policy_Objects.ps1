@@ -1,5 +1,5 @@
 ###
-#A GPO that is either unlinked or linked to empty OUs!
+#A GPO that is either not linked or linked to empty OUs!
 ###
 
 #region Sort OUs with GPO links by whether or not they have non-OU children
