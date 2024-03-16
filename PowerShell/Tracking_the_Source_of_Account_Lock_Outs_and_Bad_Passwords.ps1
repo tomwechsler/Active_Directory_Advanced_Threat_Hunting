@@ -8,6 +8,9 @@ $LockOutID = 4740
 (Get-ADDomain).PDCEmulator
 $PDCEmulator = (Get-ADDomain).PDCEmulator
 
+#Connect to the PDC
+Enter-PSSession -ComputerName $PDCEmulator
+
 #Query event log
 Get-WinEvent -ComputerName $PDCEmulator -FilterHashtable @{
     LogName = 'Security'
