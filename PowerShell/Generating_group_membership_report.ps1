@@ -1,4 +1,4 @@
-#Gather info about a single User's group membership:
+#Gather info about a single User's group membership
 (Get-ADUser 'Max.Pane' -Properties MemberOf).MemberOf
 
 #Nicely formated
