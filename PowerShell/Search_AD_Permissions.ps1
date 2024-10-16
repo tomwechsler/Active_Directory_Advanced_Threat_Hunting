@@ -5,7 +5,8 @@ $PSDefaultParameterValues = @{"*-AD*:Credential"=$creds}
 
 #GET DC Name
 $dcname=(Get-ADDomainController).Name
-New-PSDrive -Name ADDS -PSProvider ActiveDirectory -Server $dcname -Root //RootDSE/ -Credential $creds | Set-Location ADDS:
+New-PSDrive -Name ADDS -PSProvider ActiveDirectory -Server $dcname -Root //RootDSE/ -Credential $creds
+Set-Location ADDS:
 
 $OUs  = @(Get-ADDomain | Select-Object -ExpandProperty DistinguishedName)
 $OUs += Get-ADOrganizationalUnit -Filter * | Select-Object -ExpandProperty DistinguishedName
