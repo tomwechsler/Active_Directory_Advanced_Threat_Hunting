@@ -35,3 +35,14 @@ Get-ADComputer -Filter {PrimaryGroupID -eq "516"} -Properties OperatingSystem,Op
 #Identify Admin Accounts
 Get-ADUser -Filter {AdminCount -eq 1} -Properties Name,AdminCount,ServicePrincipalName,PasswordLastSet,LastLogonDate,MemberOf 
 
+#Find Admin Groups
+Get-ADGroup -Filter {GroupCategory -eq 'Security' -AND Name -like "*admin*"} 
+
+#Identify Domain Password Policy
+Get-ADDefaultDomainPasswordPolicy
+
+#Identify Fine-Grained Password Policies
+Get-ADFineGrainedPasswordPolicy -Filter *
+
+#Identify Managed Service Accounts & Group Managed Service Accounts
+Get-ADServiceAccount -Filter * -Properties *
